@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(Norse-Bold.otf);
+}
+
+/* * {
+    border: 1px solid red
+} */
+
+body {
+    display: flex;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > * {
+    max-height: 100vh;
+    
+}
+
+.imageside {
+    width: 40%;
+    overflow: hidden;
+}
+
+.background-img {
+    max-height: 100vh;
+    min-width: 40vw;
+}
+
+.logoBackground {
+    width: 40%;
+    position: absolute;
+    height: 150px;
+    top: 40%;
+    background-color: rgba(1,1,1,0.5);
+    left: 0; 
+    right: 0; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imageside div p {
+    color: white;  
+    font-size: 50px;
+    font-family: 'norse';
+    
+}
+
+#odinImg {
+    margin: 10px 0px;
+}
+
+.formside {
+    width: 60%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-text {
+    padding: 30px
+}
+
+.top-text {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.form {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 2px 2px rgb(216, 220, 223);
+}
+
+.form p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.submit {
+    padding: 30px;
+}
+
+button {
+    background-color: #596D48;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    box-shadow: 3px 3px 3px rgb(216, 220, 223);
+}
+
+a {
+    text-decoration: none;
+    color:#596D48;
+    font-weight: bold;
+}
